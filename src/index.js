@@ -32,9 +32,9 @@ function Intro() {
         infrastructure, and frontend integration. I handle the full development
         cycle from local environments to production and am always eager to
         learn, grow, and contribute to building scalable, efficient solutions.
-        <a href="https://www.linkedin.com/in/lawal-owolabi-yusuf-04976b143">
+        {/* <a href="https://www.linkedin.com/in/lawal-owolabi-yusuf-04976b143">
           Connect with me on LinkedIn
-        </a>
+        </a> */}
       </article>
     </div>
   );
@@ -43,17 +43,20 @@ function Intro() {
 function SkillList() {
   return (
     <div className="skill-list">
-      <Skills skill="HTML+CSS" emoji="💪" color="orange" />
-      <Skills skill="Javascript" emoji="💪" color="yellow" />
-      <Skills skill="React" emoji="💪" color="cyan" />
-      <Skills skill="PHP" emoji="💪" color="purple" />
-      <Skills skill="Laravel" emoji="💪" color="red" />
-      <Skills skill="Codeigniter" emoji="💪" color="darkred" />
-      <Skills skill="Python" emoji="💪" color="blue" />
-      <Skills skill="Git/Gitlab and Github" emoji="💪" color="black" />
-      <Skills skill="Docker" emoji="💪" color="lightblue" />
-      <Skills skill="AWS" emoji="💪" color="orange" />
-      <Skills skill="Terraform" emoji="💪" color="purple" />
+      <h4>Skills</h4>
+      <div className="skill-list">
+        <Skills skill="HTML+CSS" emoji="💪" color="orange" />
+        <Skills skill="Javascript" emoji="💪" color="yellow" />
+        <Skills skill="React" emoji="💪" color="cyan" />
+        <Skills skill="PHP" emoji="💪" color="purple" />
+        <Skills skill="Laravel" emoji="💪" color="red" />
+        <Skills skill="Codeigniter" emoji="💪" color="darkred" />
+        <Skills skill="Python" emoji="💪" color="blue" />
+        <Skills skill="Git/Gitlab and Github" emoji="💪" color="black" />
+        <Skills skill="Docker" emoji="💪" color="lightblue" />
+        <Skills skill="AWS" emoji="💪" color="orange" />
+        <Skills skill="Terraform" emoji="💪" color="purple" />
+      </div>
     </div>
   );
 }

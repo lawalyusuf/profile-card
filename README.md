@@ -25,7 +25,7 @@ You may also see any lint errors in the console.
 
 ## Output:
 
-![](./screenshot/yusuf-profile-card.png)
+![](./screenshot/profile-card-v1.png)
 
 ## 📌 My process
 
