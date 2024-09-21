@@ -25,7 +25,7 @@ You may also see any lint errors in the console.
 
 ## Output:
 
-![](./yusuf-profile-card.png)
+![](/profile-card/public/yusuf-profile-card.png)
 
 ## 📌 My process
 
